@@ -1,0 +1,495 @@
+{
+    "HOME": {
+        "title": "Welcome To",
+        "balance": "Balance",
+        "history": "History Top Up",
+        "menu": {
+            "title": "Menu",
+            "topup": "Top Up",
+            "invoice": "Invoice",
+            "mutation": "Mutation",
+            "transaction": "Transaction",
+            "attendance": "Attendance",
+            "digitalCard": "Digital Card",
+            "account": "Account",
+            "others": "Others",
+            "calendarAcademic": "Calendar Academic",
+            "timetable": "Schedule",
+            "donation": "Donation",
+            "support": "Support",
+            "savings": "Savings"
+        },
+        "viewAll": "View All",
+        "info": "Information & News",
+        "others": "Others",
+        "emptyInvoice": "Empty Invoice",
+        "titleEmptyInvoice": "You Don't have Invoice",
+        "send": "Send",
+        "close": "Close",
+        "notif": "Notification",
+        "pay": "Pay"
+    },
+    "PROFILE": {
+        "title": "Profile",
+        "autoLogin": "Auto Login",
+        "changePassword": "Change Password",
+        "faq": "FAQ",
+        "language": "Language",
+        "logout": "Log Out",
+        "warningAutoLogin": "Are you going to use the automatic login feature",
+        "oldPassword": "Old Password",
+        "newPassword": "New Password",
+        "rePassword": "Re-enter Password",
+        "warningLanguage": "Choose Language",
+        "confirm": "Confirmation",
+        "phone": "Phone number",
+        "toLogout": "Are you sure to logout?",
+        "yes": "Yes",
+        "no": "No",
+        "success": "Update profile success",
+        "old": "Old Password Required!",
+        "new1": "New Password Required!",
+        "new2": "New Password Reset Required!",
+        "length": "Password length cannot be less than 6 characters!",
+        "lower": "Password must have lowercase letters!",
+        "upper": "Password must have uppercase letters!",
+        "number": "The password must have numbers!",
+        "special": "Password must have special characters",
+        "same": "Please check your password again, the new password is not the same!",
+        "changeSuccess": "Password change successfully, Please login again"
+    },
+    "AUTO-LOGIN": {
+        "title": "Auto Login",
+        "subtitle": "Are you going to use the automatic login feature"
+    },
+    "LOGIN": {
+        "title": "Login",
+        "username": "Username",
+        "password": "Password",
+        "forgotPassword": "Forgot Password?",
+        "or": "Or",
+        "help": "Need Help to Login? please call",
+        "fingerprint": "Login with Fingerprint",
+        "cs": "Customer Service",
+        "description": "Digitize your school with the Platform Sekolah Pintar (PSP) right now! Use PSP, to realize management & faster, more effective and efficient school operations informative.",
+        "name": "Input Your Name",
+        "institution": "Input Your Institution Name",
+        "text": "Input Your Message",
+        "tutor": "Password Reset Tutorial",
+        "tutor1": "Make sure your whatsapp/email number is registered to the system, if not contact",
+        "tutor2": "Enter the OTP code in the form of the 5-digit code that was sent via whatsapp/your email",
+        "tutor3": "Create a new password and confirm the password",
+        "tutor4": "Please login with New Password",
+        "rule": "Terms and Conditions",
+        "rule1": "In one day reset password maximum 3 times",
+        "rule2": "Password reset repetition period is 5 minutes",
+        "next": "Next",
+        "otp": "Send OTP",
+        "otp1": "Please send to registered whatsapp and email",
+        "wa": "Send Via Whatsapp",
+        "mail": "Send Via Email",
+        "notif": "Success, input your new password!",
+        "error": "Invalid OTP Value!",
+        "empty": "Password cannot be empty!",
+        "warn": "Password not same!",
+        "success": "Password changed successfully, please login again!",
+        "new": "Input new Password!",
+        "newPassword": "New Password",
+        "confirm": "Confirmation",
+        "close": "Close",
+        "warningWA": "Please enter your number correctly",
+        "warningEmail": "Please enter your Email correctly",
+        "otpWarn": "Please enter your number correctly!",
+        "otpTitle": "Reset Password",
+        "otpDesc": "We have sent a 6 digit code. Please enter to reset your password",
+        "otpInput": "Input OTP Code",
+        "otpConfirm": "Confirm OTP",
+        "confirmErr": "Data Not Found!",
+        "confirmSuccess": "Success, please input OTP code!",
+        "wrongLogin": "Your username or password is wrong!",
+        "otherLogin": "Sorry you do not have access to this page!",
+        "send": "Send Again",
+        "accessInvalid": "Sorry, you dont have access to the application",
+        "passContain": "Minimum password characters are 6 characters & Password must contain letter & number",
+        "passCharacter": "Minimum password characters are 6 characters",
+        "newUser": "New users are required to enter their email and WhatsApp number",
+        "input": "Retype Password",
+        "required": "*Mandatory",
+        "create": "Create Password",
+        "start": "Start",
+        "end": "End",
+        "emailWA": "Email dan Whatsapp Number is required"
+    },
+    "ACCOUNT": {
+        "title": "Account"
+    },
+    "CONFIRMATIONDATA": {
+        "title": "Confirm User Data",
+        "subtitle": "Users are required to enter email and WhatsApp number",
+        "description": "For the convenience and security of your account, what is the password renewed?",
+        "changePassword": "Change Password",
+        "skip": "Skip"
+    },
+    "CALENDAR": {
+        "title": "Calendar Academic",
+        "description": "Description",
+        "day": {
+            "mon": "Mon",
+            "tues": "Tue",
+            "wed": "Wed",
+            "thurs": "Thu",
+            "fri": "Fri",
+            "sat": "Sat",
+            "sun": "Sun"
+        },
+        "back": "Back"
+    },
+    "DIGITALCARD": {
+        "title": "Digital Card",
+        "info": "Card Information",
+        "balanceCard": "Card Balance",
+        "limitAccumulate": "Maximum Limit Accumulate",
+        "dailyLimit": "Daily Limit",
+        "lastSync": "Last Sync",
+        "setLimit": "Set Limit",
+        "help": "Help",
+        "transUnlimited": "Unlimted Transaction",
+        "adjustment": "The card limit adjustment will change the next day",
+        "cancel": "Cancel",
+        "save": "Save",
+        "balanceCardDesc": "The total remaining card balance that can be used.",
+        "limitAccumulateDesc": "Used to limit the maximum accumulated limit of the card limit, the card limit will accumulate every day until it reaches the maximum accumulation limit.",
+        "limitDailyDesc": "Used to limit the use of card balance in one day.",
+        "syncHistory": "Sync History",
+        "close": "Close",
+        "emptyHistory": "Empty History"
+    },
+    "ATTENDANCE": {
+        "title": "Attendance"
+    },
+    "ATTENDANCE-DETAIL": {
+        "title": "Attendance Detail",
+        "subtitle": "History Attendance",
+        "information": "Information",
+        "filterDate": "Filter Date",
+        "history": "History",
+        "in": "In",
+        "out": "Out",
+        "close": "Close",
+        "ontime": " On Time",
+        "late": "Late",
+        "early": "Early",
+        "overtime": "Overtime"
+    },
+    "CHANGE-LANGUAGE": {
+        "title": "Change Language",
+        "subtitle": "Select the language you will use"
+    },
+    "CHANGE-PASSWORD": {
+        "title": "Change Password",
+        "oldPass": "Old Password",
+        "newPass": "New Password",
+        "newPass2": "Retype New Password",
+        "success": "Change Password Success",
+        "errorOldPass": "Old password is required",
+        "errorNewPass": "New password is required",
+        "errorNotMatch": "Please check your password again, the new password is not the same."
+    },
+    "DONATION": {
+        "title": "Donation"
+    },
+    "DONATION-DETAIL": {
+        "title": "Donation Detail",
+        "button": "Donation",
+        "balance": "Balance",
+        "donationName": "Donation Name",
+        "input": "Donation Amount Input",
+        "donationBtn": "Donation",
+        "history": "History",
+        "success": "Donation success",
+        "isNotEmpty": "Please input a valid amount"
+    },
+    "EDIT-PROFILE": {
+        "title": "Update Profile",
+        "title2": "Detail Profile"
+    },
+    "FAQ": {
+        "title": "FAQ",
+        "one": {
+            "title": "Forgot the password?",
+            "description": "If you forget your password, you can use the forgot password feature on the application's home page"
+        },
+        "two": {
+            "title": "Forgot Username?",
+            "description": "If you forget your username, you can contact our CS by clicking Customer Service"
+        },
+        "three": {
+            "title": "The invoice is not in the app yet?",
+            "description": "If there is no invoice, you can contact the school or Islamic boarding school"
+        },
+        "four": {
+            "title": "How do I pay the invoice?",
+            "description": "Invoice payments can be made by entering the Invoice menu > Select the Invoice you want to pay > click Pay"
+        },
+        "five": {
+            "title": "How to top up?",
+            "description": "The top up tutorial is on the Top Up menu > Click the bank logo > Click Tutorial"
+        },
+        "pw": "Forgot Password?",
+        "user": "Forgot Username?",
+        "invoice": "The invoice is not in the app yet?",
+        "pay": "How to pay the invoice?",
+        "topup": "Top Up Tutorials?",
+        "pwdesc": "If you forget your password, you can use the forgot password feature on the application's home page",
+        "userdesc": "If you forget your username, you can contact our CS by clicking Customer Service",
+        "invoicedesc": "If there is no invoice, you can contact the school or Islamic boarding school",
+        "paydesc": "Invoice payments can be made by entering the Billing menu – Select the Invoice you want to pay – click Pay",
+        "topupdesc": "The top up tutorial is on the Top Up menu – Click the bank logo – Click Tutorial"
+    },
+    "FORGOT-PASSWORD": {
+        "title": "Forgot Password",
+        "subtitle": "Password Reset Tutorial",
+        "step": {
+            "one": "Make sure your whatsapp/email number is registered to the system, if not contact ",
+            "two": "Enter the OTP code in the form of a 5-digit code that was sent via WhatsApp/your email",
+            "three": "Create a new password and confirm the password",
+            "four": "Please login with New Password"
+        },
+        "term": {
+            "title": "Terms and Conditions",
+            "one": "In one day reset password maximum 3 times",
+            "two": "Password reset repetition period is 5 minutes"
+        },
+        "next": "Next"
+    },
+    "FORGOT-PASSWORD-CONFIRMATION": {
+        "subtitle": "Please send it to whatsapp and registered email",
+        "viaWA": "Send via Whatsapp",
+        "viaEmail": "Send via Email",
+        "sendOTP": "Send OTP"
+    },
+    "FORGOT-PASSWORD-OTP": {
+        "subtitle": "Reset Password",
+        "description": "We have sent a 6 digit code. Please enter to reset your password",
+        "enterCode": "Input OTP code",
+        "invalid": "Invalid OTP value",
+        "confirm": "Confirm OTP"
+    },
+    "FORGOT-PASSWORD-CREATE": {
+        "subtitle": "Please input new Password",
+        "newPassword": "New Password",
+        "confirmNewPassword": "Confirm New Password",
+        "confirm": "Confirm",
+        "warning1": "Password can't be empty",
+        "warning2": "password cannot be the same",
+        "warning3": "Please enter the password correctly",
+        "success1": "Password changed successfully, please re-login"
+    },
+    "INVOICE": {
+        "title": "Invoice",
+        "history": "History",
+        "summary": "Summary",
+        "invoiceName": "Invoice Name",
+        "invoiceType": "Invoice Type",
+        "pay": "Pay",
+        "name": "Name",
+        "nis": "NIS",
+        "date": "Invoice Date",
+        "limit": "Invoice Due Date",
+        "credit": "Credit",
+        "paid": "Paid",
+        "cash": "Cash",
+        "unpaid": "Unpaid",
+        "partial": "Partial",
+        "total": "Total of Invoice",
+        "sisa": "Rest of Invoice",
+        "minus": "Minus",
+        "amount": "Amount",
+        "totalDue": "Total Due",
+        "parentName": "Parent Name",
+        "studentName": "Student Name",
+        "dataInvoice": "Invoice Data",
+        "detailInvoice": "Detail Invoice",
+        "paymentData": "Payment Data",
+        "inputAmount": "Input Amount",
+        "success": "Payment Success",
+        "placeholder": "minimum payment of IDR 10,000",
+        "balanceEmpty": "Insufficient balance to pay for this transaction. Remaining balance of ",
+        "amountNotValid": "Invalid payment amount. amount value exceeds the remaining shortfall in bill payments. The remaining ",
+        "remainingPayment": "Ensure your remaining payment is equal to or exceeds Rp. 10,000.00",
+        "amountNotEqualToInvoice":"Amount should equal to <sekian>, because invoice was less than Rp 10.000",
+        "totalpay": "Total Payment",
+        "payDate": "Pay Date",
+        "download": "Download",
+        "close": "Close",
+        "share": "Share"
+    },
+    "MUTATION": {
+        "title": "Mutation",
+        "30Days": "30 days",
+        "30Older": "Over 3 Month",
+        "3Month": "Last 3 Month",
+        "success": "Payment Success",
+        "date": "Date",
+        "name": "Parent Name",
+        "siswa": "Student Name",
+        "detail": "Transaction Detail",
+        "invoiceName": "Invoice Name",
+        "status": "Payment Status",
+        "total": "Total Balance",
+        "payment": "Payment Data",
+        "balance": "Balance"
+    },
+    "TOPUP": {
+        "title": "Top Up",
+        "history": "History Top Up",
+        "balance": "Balance",
+        "method": "Payment VA Method",
+        "otherMethod": "Payment Other Method",
+        "chooseOtherMethod": "Choose other method",
+        "accData": "Account Data",
+        "bankName": "Bank Name",
+        "accName": "Account Name",
+        "bankAdmin": "Bank Admin",
+        "accNumber": "Account Number",
+        "tutorial": "Tutorial",
+        "VACopied": "VA Number has been copied",
+        "popupTitle": "Confirmation",
+        "popupDesc1": "You don't have a Virtual Account at ",
+        "popupDesc2": "yet. Do you want to make one?",
+        "createAccount": "Create Account",
+        "cancel": "Cancel"
+    },
+    "TOPUP-HISTORY": {
+        "title": "History Top Up",
+        "balance": "Balance",
+        "empty": "Data Not Found",
+        "method": "TOPUP",
+        "nominal": "Nominal",
+        "transNumber": "Transaction Number",
+        "refNumber": "Reference Number",
+        "reff": "Empty"
+    },
+    "TRANSACTION-DETAIL": {
+        "title": "Transaction Detail"
+    },
+    "TRANSACTION": {
+        "title": "Transaction",
+        "new": "Last 3 Month",
+        "older": "Over 3 Month",
+        "info": "Transaction information :",
+        "balanceIn": "Income :",
+        "balanceOut": "Outcome :",
+        "detail": "Detail",
+        "amount": "Amount",
+        "numOfTransaction": "Number of Transactions",
+        "nominal": "Nominal",
+        "total": "Total Transaction",
+        "empety": "Data not found",
+        "showing": "Showing",
+        "to": "To",
+        "entry": "Entry",
+        "page": "Entries Per Page",
+        "prev": "Previous",
+        "next": "Next"
+    },
+    "CREATE-PASSWORD": {
+        "title": "New Password",
+        "subtitle": "Please input the following data",
+        "waNumber": "Whatsapp Number",
+        "oldPassword": "Old Password",
+        "password": "New Password",
+        "retypePassword": "Re-type New Password",
+        "required": "*Required",
+        "next": "Next"
+    },
+    "INBOX": {
+        "title": "Inbox",
+        "notification": "Notification",
+        "broadcast": "Broadcast"
+    },
+    "INFO": {
+        "title": "Info & News"
+    },
+    "TUTORIAL-TOPUP": {
+        "title": "Tutorial Top Up"
+    },
+    "SCHEDULE": {
+        "title": "Schedule",
+        "account": "Account",
+        "time": "Time",
+        "lesson": "Lesson",
+        "day": {
+            "mon": "Monday",
+            "tues": "Tuesday",
+            "wed": "Wednesday",
+            "thurs": "Thursday",
+            "fri": "Friday",
+            "sat": "Saturday",
+            "sun": "Sunday"
+        }
+    },
+    "OTHER": {
+        "back": "Back",
+        "dataNotFound": "Data Not Found",
+        "yes": "Yes",
+        "no": "No",
+        "next": "Next",
+        "previous": "Previous",
+        "showing": "Showing",
+        "to": "to",
+        "from": "from",
+        "edit": "Edit",
+        "success": "Success",
+        "fail": "Failed",
+        "save": "Save",
+        "entry": "Entry per Page",
+        "en": "entry",
+        "showMore": "Show More",
+        "year": "Year",
+        "close": "Close",
+        "month": {
+            "january": "January",
+            "february": "February",
+            "march": "March",
+            "april": "April",
+            "may": "May",
+            "june": "June",
+            "july": "July",
+            "august": "August",
+            "september": "September",
+            "october": "October",
+            "november": "November",
+            "december": "December"
+        }
+    },
+    "BERITA": {
+        "title": "Information & News",
+        "subtitle": "News"
+    },
+    "MESSAGE": {
+        "title": "Message",
+        "button1": "Notification",
+        "button2": "Broadcast",
+        "date": "Date"
+    },
+    "CUSTOMER": {
+        "title": "Customer Service",
+        "name": "Input Your Name",
+        "institution": "Input Your Intitution Name",
+        "message": "Input Your Message",
+        "no": "Cancel",
+        "yes": "Send",
+        "desc": "Description"
+    },
+    "NAVBAR": {
+        "home": "Home",
+        "info": "Information",
+        "inbox": "Message",
+        "profile": "Profile"
+    },
+    "BROADCAST": {
+        "from": "From",
+        "until": "Until"
+    }
+}

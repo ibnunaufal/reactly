@@ -1,0 +1,496 @@
+{
+    "HOME": {
+        "title": "Selamat Datang Di",
+        "balance": "Saldo",
+        "history": "Riwayat Top Up",
+        "menu": {
+            "title": "Menu",
+            "topup": "Isi Ulang",
+            "invoice": "Tagihan",
+            "mutation": "Mutasi",
+            "transaction": "Transaksi",
+            "attendance": "Absensi",
+            "digitalCard": "Kartu Digital",
+            "account": "Akun",
+            "others": "Lainnya",
+            "calendarAcademic": "Kalender Akademik",
+            "timetable": "Jadwal Pelajaran",
+            "donation": "Donasi",
+            "support": "Bantuan",
+            "savings": "Tabungan"
+        },
+        "viewAll": "Lihat Semua",
+        "info": "Informasi & Berita",
+        "others": "Lainnya",
+        "emptyInvoice": "Tagihan Kosong",
+        "titleEmptyInvoice": "Anda Belum Memiliki Tagihan",
+        "send": "Kirim",
+        "close": "Tutup",
+        "notif": "Pemberitahuan",
+        "pay": "Bayar"
+    },
+    "PROFILE": {
+        "title": "Profil",
+        "autoLogin": "Login Otomatis",
+        "changePassword": "Ganti Kata Sandi",
+        "faq": "Tanya Jawab",
+        "language": "Bahasa",
+        "logout": "Keluar",
+        "warningAutoLogin": "Apakah anda akan menggunakan fitur login otimatis",
+        "oldPassword": "Kata Sandi Lama",
+        "newPassword": "Kata Sandi Baru",
+        "rePassword": "Ketik Ulang Kata Sandi",
+        "warningLanguage": "Pilih Bahasa",
+        "confirm": "Konfirmasi",
+        "phone": "Nomor telepon",
+        "toLogout": "Apakah anda yakin ingin keluar?",
+        "yes": "Ya",
+        "no": "Tidak",
+        "success": "Edit profile Berhasil",
+        "old": "Kata Sandi Lama Wajib Diisi!",
+        "new1": "Kata Sandi Baru Wajib Diisi!",
+        "new2": "Kata Sandi Baru Ulang Wajib Diisi!",
+        "length": "Panjang password tidak boleh kurang dari 6 karakter",
+        "lower": "Password harus memiliki huruf kecil",
+        "upper": "Password harus memiliki huruf besar",
+        "number": "Password harus memiliki angka",
+        "special": "Password harus memiliki karakter spesial",
+        "same": "Silahkan cek kembali password anda, password baru tidak sama!",
+        "changeSuccess": "Password change successfully, Please login again"
+    },
+    "AUTO-LOGIN": {
+        "title": "Login Otomatis",
+        "subtitle": "Apakah anda akan menggunakan fitur login otomatis"
+    },
+    "LOGIN": {
+        "title": "Login",
+        "username": "Username",
+        "password": "Kata Sandi",
+        "forgotPassword": "Lupa Kata Sandi?",
+        "language": "Bahasa",
+        "or": "Or",
+        "help": "Butuh Bantuan untuk login? silahkan hubungi",
+        "cs": "pelayanan pelanggan",
+        "fingerprint": "Login dengan sidik jari",
+        "description": "Digitalisasikan sekolah anda dengan Platform Sekolah Pintar (PSP) sekarang juga! Pakai PSP, untuk mewujudkan manajemen & operasional sekolah yang lebih cepat, efektif dan informatif.",
+        "name": "Masukan Nama Anda",
+        "institution": "Masukan Nama Institusi Anda",
+        "text": "Masukan Pesan Anda",
+        "tutor": "Tutorial Atur Ulang Password",
+        "tutor1": "Pastikan nomor whatsapp/ email anda terdaftar ke sistem, jika belum hubungi",
+        "tutor2": "Masukan kode OTP berupa 5 digit kode yang sudah dikirim melalui whatsapp/ email anda",
+        "tutor3": "Buat password baru dan konfirmasi password tersebut",
+        "tutor4": "Silahkan login dengan Password Baru",
+        "rule": "Syarat dan Ketentuan",
+        "rule1": "Dalam satu hari reset password maksimal 3 kali",
+        "rule2": "Jangka waktu pengulangan reset password 5 menit",
+        "next": "Lanjut",
+        "otp": "Kirim OTP",
+        "otp1": "Silahkan kirimkan ke whatsapp dan email yang sudah terdaftar",
+        "wa": "Kirim Via Whatsapp",
+        "mail": "Kirim Via Email",
+        "notif": "Berhasil, silahkan masukkan password baru!",
+        "error": "Kode OTP Tidak Valid",
+        "empty": "Password tidak boleh kosong!",
+        "warn": "Password tidak sama!",
+        "success": "Password berhasil di ubah, silahkan login kembali!",
+        "new": "Masukan Password yang baru!",
+        "newPassword": "Password baru",
+        "confirm": "Konfirmasi",
+        "close": "Tutup",
+        "warningWA": "Silahkan masukkan Nomor anda dengan benar",
+        "warningEmail": "Silahkan masukkan Email anda dengan benar",
+        "otpWarn": "Silahkan masukkan Nomor anda dengan benar!",
+        "otpTitle": "Reset Password",
+        "otpDesc": "Kami telah mengirim 6 digit kode. Silahkan masukan untuk mereset passwordmu",
+        "otpInput": "Masukan Kode",
+        "otpConfirm": "Konfirmasi OTP",
+        "confirmErr": "Data Tidak Ditemukan!",
+        "confirmSuccess": "Sukses, silahkan masukan kode OTP!",
+        "accessInvalid": "Maaf, anda tidak memiliki akses ke dalam aplikasi",
+        "wrongLogin": "Maaf, anda tidak memiliki izin untuk mengakses halaman ini",
+        "send": "Kirim Ulang",
+        "passContain": "Minimal karakter kata sandi adalah 6 karakter dan Kata sandi harus memiliki kombinasi angka dan huruf",
+        "passCharacter": "minimal karakter kata sandi adalah 6 karakter",
+        "otherLogin": "Maaf anda tidak memiliki akses untuk halaman ini!",
+        "newUser": "Pengguna baru wajib memasukkan email dan nomor WhatsApp",
+        "input": "Ketik Ulang Password",
+        "required": "*Wajib Diisi",
+        "create": "Buat Password",
+        "start": "Mulai",
+        "end": "Sampai",
+        "emailWA": "Email dan Whatsapp Wajib Diisi"
+    },
+    "ACCOUNT": {
+        "title": "Akun"
+    },
+    "CONFIRMATIONDATA": {
+        "title": "  Konfirmasi Data Pengguna",
+        "subtitle": "Pengguna wajib memasukkan email dan nomor whatsapp",
+        "description": "Demi Kenyamanan dan Keamanan akun anda , Apakah kata sandi akan diperbaharui?",
+        "skip": "Lewati",
+        "changePassword": "Ubah Kata Sandi"
+    },
+    "CALENDAR": {
+        "title": "Kalender Akademik",
+        "description": "Keterangan",
+        "day": {
+            "mon": "Sen",
+            "tues": "Sel",
+            "wed": "Rab",
+            "thurs": "Kam",
+            "fri": "Jum",
+            "sat": "Sap",
+            "sun": "Min"
+        },
+        "back": "Kembali"
+    },
+    "DIGITALCARD": {
+        "title": "Kartu Digital",
+        "info": "Informasi Kartu",
+        "balanceCard": "Saldo Kartu",
+        "limitAccumulate": "Batas Akumulasi Maksimal",
+        "dailyLimit": "Batas Harian",
+        "lastSync": "Terakhir Sinkron",
+        "setLimit": "Atur Batas",
+        "help": "Bantuan",
+        "transUnlimited": "Transaksi tak Terbatas",
+        "cancel": "Batal",
+        "adjustment": "Penyesuaian batas kartu akan berubah hari berikutnya",
+        "balanceCardDesc": "Total saldo kartu yang masih tersisa dan bisa di gunakan.",
+        "limitAccumulateDesc": "Digunakan untuk membatasi batas maksimal akumulasi dari batas kartu, batas kartu setiap hari akan terakumulasi sampai mencapai batas akumulasi maksimal.",
+        "limitDailyDesc": "Digunakan untuk membatasi penggunaan saldo kartu dalam satu hari.",
+        "save": "Simpan",
+        "syncHistory": "Riwayat Sinkron",
+        "close": "Tutup",
+        "emptyHistory": "Riwayat Kosong"
+    },
+    "ATTENDANCE": {
+        "title": "Absensi"
+    },
+    "ATTENDANCE-DETAIL": {
+        "title": "Detail Absensi",
+        "subtitle": "Riwayat Absensi",
+        "information": "Informasi",
+        "filterDate": "Pilih Tanggal",
+        "history": "Riwayat",
+        "in": "Masuk",
+        "out": "Keluar",
+        "close": "Tutup",
+        "ontime": "Tepat Waktu",
+        "late": "Terlambat",
+        "early": "Pulang Awal",
+        "overtime": "Lembur"
+    },
+    "CHANGE-LANGUAGE": {
+        "title": "Ganti Bahasa",
+        "subtitle": "Pilih Bahasa yang akan anda gunakan"
+    },
+    "CHANGE-PASSWORD": {
+        "title": "Ganti Kata Sandi",
+        "oldPass": "Kata Sandi Lama",
+        "newPass": "Kata Sandi Baru",
+        "newPass2": "Ketik ulang Kata Sandi Baru",
+        "success": "Perubahan Password Berhasil",
+        "errorOldPass": "Kata sandi lama wajib diisi",
+        "errorNewPass": "Kata sandi baru wajib diisi",
+        "errorNotMatch": "Silahkan cek kembali password anda, password baru tidak sama."
+    },
+    "DONATION": {
+        "title": "Donasi"
+    },
+    "DONATION-DETAIL": {
+        "title": "Detail Donasi",
+        "button": "Donasi",
+        "balance": "Saldo",
+        "donationName": "Nama Donasi",
+        "input": "Masukkan Jumlah Donasi",
+        "donationBtn": "Donasi",
+        "history": "Riwayat",
+        "success": "Donasi berhasil",
+        "isNotEmpty": "Masukan nominal donasi yang valid terlebih dahulu"
+    },
+    "EDIT-PROFILE": {
+        "title": "Edit Profil",
+        "title2": "Profil Detail "
+    },
+    "FAQ": {
+        "title": "Tanya Jawab",
+        "one": {
+            "title": "Lupa Password?",
+            "description": "Apabila lupa password bisa menggunakan fitur lupa password pada halaman awal aplikasi"
+        },
+        "two": {
+            "title": "Lupa Username?",
+            "description": "Apabila lupa username bisa menghubungi CS kami dengan cara klik Layanan Pelanggan"
+        },
+        "three": {
+            "title": "Tagihan belum ada di aplikasi?",
+            "description": "Apabila belum ada tagihan bisa menghubungi pihak sekolah atau pondok pesantren"
+        },
+        "four": {
+            "title": "Bagaimana cara membayar tagihan?",
+            "description": "Untuk pembayaran tagihan dapat dilakukan dengan cara masuk ke menu Tagihan – Pilih Tagihan yang ingin dibayarkan – klik Bayar"
+        },
+        "five": {
+            "title": "Cara top up?",
+            "description": "Untuk tutorial top up terdapat pada menu Isi Ulang – Klik logo bank – klik Tutorial"
+        },
+        "pw": "Lupa Password?",
+        "user": "Lupa Username?",
+        "invoice": "Tagihan belum ada di aplikasi?",
+        "pay": "Bagaimana cara membayar tagihan?",
+        "topup": "Cara top up?",
+        "pwdesc": "Apabila lupa password bisa menggunakan fitur lupa password pada halaman awal aplikasi",
+        "userdesc": "Apabila lupa username bisa menghubungi CS kami dengan cara klik Layanan Pelanggan",
+        "invoicedesc": "Apabila belum ada tagihan bisa menghubungi pihak sekolah atau pondok pesantren",
+        "paydesc": "Untuk pembayaran tagihan dapat dilakukan dengan cara masuk ke menu Tagihan – Pilih Tagihan yang ingin dibayarkan – klik Bayar",
+        "topupdesc": "Untuk tutorial top up terdapat pada menu Isi Ulang – Klik logo bank – klik Tutorial"
+    },
+    "FORGOT-PASSWORD": {
+        "title": "Lupa Kata Sandi",
+        "subtitle": "Tutorial Atur Ulang Password",
+        "step": {
+            "one": "Pastikan nomor whatsapp/ email anda terdaftar ke sistem, jika belum hubungi ",
+            "two": "Masukan kode OTP berupa 5 digit kode yang sudah dikirim melalui whatsapp/ email anda",
+            "three": "Buat password baru dan konfirmasi password tersebut",
+            "four": "Silahkan login dengan Password Baru"
+        },
+        "term": {
+            "title": "Syarat dan Ketentuan",
+            "one": "Dalam satu hari reset password maksimal 3 kali",
+            "two": "Jangka waktu pengulangan reset password 5 menit"
+        },
+        "next": "Lanjut"
+    },
+    "FORGOT-PASSWORD-CONFIRMATION": {
+        "subtitle": "Silahkan kirimkan ke whatsapp dan email yang sudah terdaftar",
+        "viaWA": "Kirim Via Whatsapp",
+        "viaEmail": "Kirim Via Email",
+        "sendOTP": "Kirim OTP"
+    },
+    "FORGOT-PASSWORD-OTP": {
+        "subtitle": "Setel ulang kata sandi",
+        "description": "Kami telah mengirim 6 digit kode. Silahkan masukan untuk mereset passwordmu",
+        "enterCode": "Masukan Kode OTP",
+        "confirm": "Konfirmasi OTP",
+        "invalid": "OTP tidak valid"
+    },
+    "FORGOT-PASSWORD-CREATE": {
+        "subtitle": "Silahkan masukkan password baru",
+        "newPassword": "Password Baru",
+        "confirmNewPassword": "Konfirmasi Password Baru",
+        "confirm": "Konfirmasi",
+        "warning1": "Password tidak boleh kosong",
+        "warning2": "Password tidak sama",
+        "warning3": "Silahkan masukkan password dengan benar",
+        "success1": "Password berhasil diubah, silahkan login kembali"
+    },
+    "INVOICE": {
+        "title": "Tagihan",
+        "history": "Riwayat",
+        "summary": "Ringkasan",
+        "invoiceName": "Nama Tagihan",
+        "invoiceType": "Jenis Tagihan",
+        "pay": "Bayar",
+        "name": "Nama",
+        "nis": "NIS",
+        "date": "Tgl Tagihan",
+        "limit": "Jatuh Tempo",
+        "credit": "Kredit",
+        "paid": "Terbayar",
+        "cash": "Tunai",
+        "unpaid": "Belum Terbayar",
+        "partial": "Terbayar Sebagian",
+        "total": "Total tagihan",
+        "sisa": "Sisa Tagihan",
+        "minus": "Kekurangan",
+        "amount": "Jumlah",
+        "totalDue": "Sisa",
+        "parentName": "Nama Wali",
+        "studentName": "Nama Siswa",
+        "dataInvoice": "Data Pembayaran",
+        "detailInvoice": "Detail Transaksi",
+        "paymentData": "Data Pembayaran",
+        "inputAmount": "Masukkan Nominal",
+        "placeholder": "Minimal Pembayaran Rp.10.000",
+        "success": "Pembayaran Berhasil",
+        "balanceEmpty": "Saldo tidak mencukupi untuk pembayaran transaksi ini. Sisa saldo ",
+        "amountNotValid": "Nominal pembayaran tidak valid. Nominal melebihi sisa kekurangan pembayaran tagihan. Sisa ",
+        "remainingPayment": "Sisa kekurangan pembayaran harus lebih dari / sama dengan Rp. 10.000,00",
+        "amountNotEqualToInvoice":"Tagihan harus dibayarkan sebesar <sekian>, karena tagihan kurang dari Rp 10.000",
+        "totalpay": "Total Pembayaran",
+        "close": "Tutup",
+        "download": "Unduh",
+        "payDate": "Tanggal Pembayaran",
+        "share": "Bagikan"
+    },
+    "MUTATION": {
+        "title": "Mutasi",
+        "30Days": "30 hari",
+        "30Older": "Diatas 3 bulan",
+        "3Month": "3 Bulan Terakhir",
+        "success": "Pembayaran Berhasil",
+        "date": "Tanggal",
+        "name": "Nama Wali",
+        "siswa": "Nama Siswa",
+        "detail": "Detail Transaksi",
+        "invoiceName": "Nama Tagihan",
+        "status": "Status Pembayaran",
+        "total": "Total Saldo",
+        "payment": "Payment Data",
+        "balance": "Saldo"
+    },
+    "TOPUP": {
+        "title": "Isi Ulang",
+        "history": "Riwayat Isi Ulang",
+        "balance": "Saldo",
+        "method": "Metode Pembayaran No VA",
+        "otherMethod": "Metode Pembayaran Lain",
+        "chooseOtherMethod": "Pilih Metode Pembayaran",
+        "accData": "Data Akun",
+        "bankName": "Nama Bank",
+        "accName": "Nama Rekening",
+        "bankAdmin": "Admin Bank",
+        "accNumber": "Nomor Rekening",
+        "tutorial": "Panduan",
+        "VACopied": "Nomor VA telah tersalin",
+        "popupTitle": "Konfirmasi",
+        "popupDesc1": "Anda belum memiliki Virtual Account pada ",
+        "popupDesc2": ". Apakah anda ingin membuatnya?",
+        "createAccount": "Buat Akun",
+        "cancel": "Batal"
+    },
+    "TOPUP-HISTORY": {
+        "title": "Riwayat Isi Ulang",
+        "balance": "Saldo",
+        "empty": "Data Tidak Ditemukan",
+        "method": "TOPUP",
+        "nominal": "Nominal",
+        "transNumber": "Nomor Transaksi",
+        "refNumber": "Nomor Referensi",
+        "reff": "Kosong"
+    },
+    "TRANSACTION-DETAIL": {
+        "title": "Detail Transaksi"
+    },
+    "TRANSACTION": {
+        "title": "Transaksi",
+        "new": "3 Bulan Terakhir",
+        "older": "Diatas 3 Bulan",
+        "info": "Informasi Transaksi :",
+        "balanceIn": "Saldo Masuk :",
+        "balanceOut": "Saldo Keluar :",
+        "detail": "Detail",
+        "amount": "Jumlah",
+        "numOfTransaction": "Jumlah Transaksi",
+        "nominal": "Nominal",
+        "total": "Total Transaksi",
+        "empety": "Data tidak ditemukan",
+        "showing": "Menampilkan",
+        "to": "Ke",
+        "entry": "Daftar",
+        "page": "Daftar per halaman",
+        "prev": "Kembali",
+        "next": "Lanjut"
+    },
+    "CREATE-PASSWORD": {
+        "title": "Kata Sandi Baru",
+        "subtitle": "Silahkan input data berikut",
+        "waNumber": "Nomor Whatsapp",
+        "oldPassword": "Kata Sandi Lama",
+        "password": "Kata Sandi Baru",
+        "retypePassword": "Ketik ulang Kata Sandi Baru",
+        "required": "*Wajib diisi",
+        "next": "Selanjutnya"
+    },
+    "INBOX": {
+        "title": "Kotak Masuk",
+        "notification": "Notifikasi",
+        "broadcast": "Siaran"
+    },
+    "INFO": {
+        "title": "Infomasi & Berita"
+    },
+    "TUTORIAL-TOPUP": {
+        "title": "Panduan Isi Ulang"
+    },
+    "SCHEDULE": {
+        "title": "Jadwal Pelajaran",
+        "account": "Akun",
+        "time": "Waktu",
+        "lesson": "Pelajaran",
+        "day": {
+            "mon": "Senin",
+            "tues": "Selasa",
+            "wed": "Rabu",
+            "thurs": "Kamis",
+            "fri": "Jumat",
+            "sat": "Sabtu",
+            "sun": "Minggu"
+        }
+    },
+    "OTHER": {
+        "back": "Kembali",
+        "dataNotFound": "Data Kosong",
+        "yes": "Ya",
+        "no": "Tidak",
+        "next": "Selanjutnya",
+        "previous": "Sebelumnya",
+        "showing": "Menampilkan",
+        "to": "ke",
+        "from": "dari",
+        "edit": "Edit",
+        "save": "Simpan",
+        "success": "Sukses",
+        "fail": "Gagal",
+        "entry": "Antrian per halaman",
+        "en": "Antrian",
+        "showMore": "Tampilkan lebih banyak",
+        "year": "Tahun",
+        "close": "Tutup",
+        "month": {
+            "january": "Januari",
+            "february": "Februari",
+            "march": "Maret",
+            "april": "April",
+            "may": "Mei",
+            "june": "Juni",
+            "july": "Juli",
+            "august": "Agustus",
+            "september": "September",
+            "october": "Oktober",
+            "november": "November",
+            "december": "Desember"
+        }
+    },
+    "BERITA": {
+        "title": "Informasi & Berita",
+        "subtitle": "Berita"
+    },
+    "MESSAGE": {
+        "title": "Pesan",
+        "button1": "Notifikasi",
+        "button2": "Siaran",
+        "date": "Tanggal"
+    },
+    "CUSTOMER": {
+        "title": "Layanan Pelanggan",
+        "name": "Masukan Nama Anda",
+        "institution": "Masukan Nama Institusi Anda",
+        "message": "Masukan Pesan Anda",
+        "no": "Batal",
+        "yes": "Kirim",
+        "desc": "Deskripsi"
+    },
+    "NAVBAR": {
+        "home": "Beranda",
+        "info": "Informasi",
+        "inbox": "Pesan",
+        "profile": "Profil"
+    },
+    "BROADCAST": {
+        "from": "Dari",
+        "until": "Sampai"
+    }
+}
