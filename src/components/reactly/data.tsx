@@ -1,11 +1,6 @@
 import {
-  FaceSmileIcon,
-  ChartBarSquareIcon,
-  CursorArrowRaysIcon,
-  DevicePhoneMobileIcon,
-  AdjustmentsHorizontalIcon,
-  SunIcon,
-} from "@heroicons/react/24/solid";
+  AcademicCapIcon
+} from "@heroicons/react/outline";
 
 import benefitOneImg from "../../assets/img/benefit-one.png";
 import benefitTwoImg from "../../assets/img/benefit-two.png";
@@ -32,17 +27,17 @@ const benefitOne: BenefitData = {
     {
       title: "Understand your customers",
       desc: "Then explain the first point breifly in one or two lines.",
-      icon: <FaceSmileIcon />,
+      icon: <AcademicCapIcon />,
     },
     {
       title: "Improve acquisition",
       desc: "Here you can add the next benefit point.",
-      icon: <ChartBarSquareIcon />,
+      icon: <AcademicCapIcon />,
     },
     {
       title: "Drive customer retention",
       desc: "This will be your last bullet point in this section.",
-      icon: <CursorArrowRaysIcon />,
+      icon: <AcademicCapIcon />,
     },
   ],
 };
@@ -55,17 +50,17 @@ const benefitTwo: BenefitData = {
     {
       title: "Mobile Responsive Template",
       desc: "Nextly is designed as a mobile first responsive template.",
-      icon: <DevicePhoneMobileIcon />,
+      icon: <AcademicCapIcon />,
     },
     {
       title: "Powered by Next.js & TailwindCSS",
       desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsHorizontalIcon />,
+      icon: <AcademicCapIcon />,
     },
     {
       title: "Dark & Light Mode",
       desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
+      icon: <AcademicCapIcon />,
     },
   ],
 };
