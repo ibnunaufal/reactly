@@ -17,6 +17,7 @@ export default function HomeComponents() {
 
   return (
     <div>
+      <div className=" bg-slate-600 w-full">asd</div>
       All:
       {data.map((res:any) => (
         <div key={res._id}>{res.versionCode}</div>

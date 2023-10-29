@@ -1,3 +1,4 @@
+import HomeAgain from "./components/homeAgainComponent";
 import HomeComponents from "./components/homeComponent";
 
 const Routes: any = [
@@ -8,6 +9,10 @@ const Routes: any = [
     {
       path: "/home",
       component: HomeComponents,
+    },
+    {
+      path: "/coba",
+      component: HomeAgain
     },
   ];
   export default Routes;
