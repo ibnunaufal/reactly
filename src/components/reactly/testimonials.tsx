@@ -4,17 +4,166 @@ import Container from "./container";
 import userOneImg from "../../assets/img/user1.jpg";
 import userTwoImg from "../../assets/img/user2.jpg";
 import userThreeImg from "../../assets/img/user3.jpg";
+import {
+  Button,
+  Card,
+  CardBody,
+  CardFooter,
+  CardHeader,
+  Carousel,
+  Typography,
+} from "@material-tailwind/react";
+import facility from "../../assets/img/facilities/1.jpg"
 
 interface AvatarProps {
   imageSrc: string;
   name: string;
   title: string;
 }
+{
+  /* using carousel, create carousel that contain several div of an element */
+}
+{
+  /* <Carousel
+          className="rounded-xl"
+          navigation={({ setActiveIndex, activeIndex, length }) => (
+            <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
+              {new Array(length).fill("").map((_, i) => (
+                <span
+                  key={i}
+                  className={`block h-1 cursor-pointer rounded-2xl transition-all content-[''] ${
+                    activeIndex === i ? "w-8 bg-white" : "w-4 bg-white/50"
+                  }`}
+                  onClick={() => setActiveIndex(i)}
+                />
+              ))}
+            </div>
+          )}
+        >
+          <div className="lg:col-span-2 xl:col-auto">
+            <div className="flex flex-col justify-between w-full h-full bg-indigo-700 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+              <p className="text-2xl leading-normal ">
+                Share a real <Mark>testimonial</Mark> that hits some of your
+                benefits from one of your popular customers.
+              </p>
 
+              <Avatar
+                imageSrc={userOneImg}
+                name="Sarah Steiner"
+                title="VP Sales at Google"
+              />
+            </div>
+          </div>
+          <div className="lg:col-span-2 xl:col-auto">
+            <div className="flex flex-col justify-between w-full h-full bg-indigo-700 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+              <p className="text-2xl leading-normal ">
+                Share a real <Mark>testimonial</Mark> that hits some of your
+                benefits from one of your popular customers.
+              </p>
+
+              <Avatar
+                imageSrc={userOneImg}
+                name="Sarah Steiner"
+                title="VP Sales at Google"
+              />
+            </div>
+          </div>
+        </Carousel> */
+}
+
+const dataTestimonials = [
+  {
+    id: 1,
+    text: "Mesin Antrian dan Video Mall",
+  },
+  {
+    id: 2,
+    text: "Ruang Gerai Layanan",
+  },
+  {
+    id: 3,
+    text: "Ruang Tunggu",
+  },
+  {
+    id: 4,
+    text: "Pojok Baca Digital",
+  },
+  {
+    id: 5,
+    text: "Ruang Prioritas",
+  },
+  {
+    id: 7,
+    text: "Ruang Tunggu",
+  },
+  {
+    id: 8,
+    text: "Kantin/Pojok UMKM",
+  },
+  {
+    id: 9,
+    text: "Mesin Survey Kepuasan Masyarakat",
+  },
+  {
+    id: 10,
+    text: "Ruang Difabel",
+  },
+  {
+    id: 11,
+    text: "Ruang Pengaduan",
+  },
+  {
+    id: 12,
+    text: "Toilet",
+  },
+  {
+    id: 13,
+    text: "Balai Nikah",
+  },
+  {
+    id: 14,
+    text: "Ruang Laktasi",
+  },
+  {
+    id: 15,
+    text: "Ruang Rapat",
+  },
+  
+]
 const Testimonials: React.FC = () => {
   return (
     <Container>
-      <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
+      <div className="flex overflow-x-auto max-h-50 flex-nowrap">
+        <div className="flex flex-nowrap gap-3 mr-2">
+        {dataTestimonials.map((item, index) => (
+          <Card className="mt-6 w-96 bg-indigo-100" key={item.id}>
+            <CardHeader color="blue-gray" className="relative h-56">
+              <img
+                src={facility}
+                alt="card-image"
+              />
+            </CardHeader>
+            <CardBody>
+              <Typography variant="h5" color="blue-gray" className="mb-2">
+                {item.text}
+              </Typography>
+              <Typography>
+                The place is close to Barceloneta Beach and bus stop just 2 min
+                by walk and near to &quot;Naviglio&quot; where you can enjoy the
+                main night life in Barcelona.
+              </Typography>
+            </CardBody>
+            <CardFooter className="pt-0">
+              <Button className="bg-indigo-500">Read More</Button>
+            </CardFooter>
+          </Card>
+        ))}
+        </div>
+      </div>
+      <div>
+
+      </div>
+      {/* <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
@@ -57,7 +206,7 @@ const Testimonials: React.FC = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
     </Container>
   );
 };

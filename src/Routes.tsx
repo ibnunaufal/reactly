@@ -1,18 +1,18 @@
-import HomeAgain from "./components/homeAgainComponent";
-import HomeComponents from "./components/homeComponent";
+import Home from "./components/homeComponent";
+import UnusedHomeComponents from "./components/unusedHomeComponent";
 
 const Routes: any = [
     {
       path: "",
-      redirect: "Home",
+      redirect: "home",
     },
     {
       path: "/home",
-      component: HomeComponents,
+      component: Home,
     },
     {
       path: "/coba",
-      component: HomeAgain
+      component: UnusedHomeComponents
     },
   ];
   export default Routes;
