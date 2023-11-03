@@ -13,7 +13,20 @@ import {
   Carousel,
   Typography,
 } from "@material-tailwind/react";
-import facility from "../../assets/img/facilities/1.jpg"
+import facility1 from "../../assets/img/facilities/1.jpg"
+import facility2 from "../../assets/img/facilities/2.jpg"
+import facility3 from "../../assets/img/facilities/3.jpg"
+import facility4 from "../../assets/img/facilities/4.jpg"
+import facility5 from "../../assets/img/facilities/5.jpg"
+import facility7 from "../../assets/img/facilities/7.jpg"
+import facility8 from "../../assets/img/facilities/8.jpg"
+import facility9 from "../../assets/img/facilities/9.jpg"
+import facility10 from "../../assets/img/facilities/10.jpg"
+import facility11 from "../../assets/img/facilities/11.jpg"
+import facility12 from "../../assets/img/facilities/12.jpg"
+import facility13 from "../../assets/img/facilities/13.jpg"
+import facility14 from "../../assets/img/facilities/14.jpg"
+import facility15 from "../../assets/img/facilities/15.jpg"
 
 interface AvatarProps {
   imageSrc: string;
@@ -75,58 +88,72 @@ const dataTestimonials = [
   {
     id: 1,
     text: "Mesin Antrian dan Video Mall",
+    image: facility1
   },
   {
     id: 2,
     text: "Ruang Gerai Layanan",
+    image: facility2
   },
   {
     id: 3,
     text: "Ruang Tunggu",
+    image: facility3
   },
   {
     id: 4,
     text: "Pojok Baca Digital",
+    image: facility4
   },
   {
     id: 5,
     text: "Ruang Prioritas",
+    image: facility5
   },
   {
     id: 7,
     text: "Ruang Tunggu",
+    image: facility7
   },
   {
     id: 8,
     text: "Kantin/Pojok UMKM",
+    image: facility8
   },
   {
     id: 9,
     text: "Mesin Survey Kepuasan Masyarakat",
+    image: facility9
   },
   {
     id: 10,
     text: "Ruang Difabel",
+    image: facility10
   },
   {
     id: 11,
     text: "Ruang Pengaduan",
+    image: facility11
   },
   {
     id: 12,
     text: "Toilet",
+    image: facility12
   },
   {
     id: 13,
     text: "Balai Nikah",
+    image: facility13
   },
   {
     id: 14,
     text: "Ruang Laktasi",
+    image: facility14
   },
   {
     id: 15,
     text: "Ruang Rapat",
+    image: facility15
   },
   
 ]
@@ -139,7 +166,7 @@ const Testimonials: React.FC = () => {
           <Card className="mt-6 w-96 bg-indigo-100" key={item.id}>
             <CardHeader color="blue-gray" className="relative h-56">
               <img
-                src={facility}
+                src={item.image}
                 alt="card-image"
               />
             </CardHeader>
